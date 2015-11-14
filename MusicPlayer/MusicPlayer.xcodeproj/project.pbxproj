@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1129D39E1BF76535008453C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1129D39D1BF76535008453C0 /* AppDelegate.swift */; };
+		1129D3A01BF76535008453C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1129D39F1BF76535008453C0 /* ViewController.swift */; };
+		1129D3A51BF76535008453C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3A41BF76535008453C0 /* Assets.xcassets */; };
+		1129D3BE1BF76592008453C0 /* playpause.png in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3AF1BF76592008453C0 /* playpause.png */; settings = {ASSET_TAGS = (); }; };
+		1129D3BF1BF76592008453C0 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B01BF76592008453C0 /* stop.png */; settings = {ASSET_TAGS = (); }; };
+		1129D3C01BF76592008453C0 /* ACDC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B11BF76592008453C0 /* ACDC.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C11BF76592008453C0 /* BMTH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B21BF76592008453C0 /* BMTH.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C21BF76592008453C0 /* Caribou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B31BF76592008453C0 /* Caribou.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C31BF76592008453C0 /* David Guetta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B41BF76592008453C0 /* David Guetta.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C41BF76592008453C0 /* Disclosure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B51BF76592008453C0 /* Disclosure.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C51BF76592008453C0 /* DJ Krush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B61BF76592008453C0 /* DJ Krush.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C61BF76592008453C0 /* DJ Shadow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B71BF76592008453C0 /* DJ Shadow.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C71BF76592008453C0 /* Jon Hopkins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B81BF76592008453C0 /* Jon Hopkins.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C81BF76592008453C0 /* Notorious.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3B91BF76592008453C0 /* Notorious.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3C91BF76592008453C0 /* Tupac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3BA1BF76592008453C0 /* Tupac.mp3 */; settings = {ASSET_TAGS = (); }; };
+		1129D3CA1BF76592008453C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3BB1BF76592008453C0 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		1129D3CB1BF76592008453C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3BC1BF76592008453C0 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		1129D3CC1BF76592008453C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1129D3BD1BF76592008453C0 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1129D39A1BF76535008453C0 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1129D39D1BF76535008453C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1129D39F1BF76535008453C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1129D3A41BF76535008453C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1129D3AF1BF76592008453C0 /* playpause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playpause.png; sourceTree = "<group>"; };
+		1129D3B01BF76592008453C0 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		1129D3B11BF76592008453C0 /* ACDC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ACDC.mp3; sourceTree = "<group>"; };
+		1129D3B21BF76592008453C0 /* BMTH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BMTH.mp3; sourceTree = "<group>"; };
+		1129D3B31BF76592008453C0 /* Caribou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Caribou.mp3; sourceTree = "<group>"; };
+		1129D3B41BF76592008453C0 /* David Guetta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "David Guetta.mp3"; sourceTree = "<group>"; };
+		1129D3B51BF76592008453C0 /* Disclosure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Disclosure.mp3; sourceTree = "<group>"; };
+		1129D3B61BF76592008453C0 /* DJ Krush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Krush.mp3"; sourceTree = "<group>"; };
+		1129D3B71BF76592008453C0 /* DJ Shadow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Shadow.mp3"; sourceTree = "<group>"; };
+		1129D3B81BF76592008453C0 /* Jon Hopkins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jon Hopkins.mp3"; sourceTree = "<group>"; };
+		1129D3B91BF76592008453C0 /* Notorious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Notorious.mp3; sourceTree = "<group>"; };
+		1129D3BA1BF76592008453C0 /* Tupac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tupac.mp3; sourceTree = "<group>"; };
+		1129D3BB1BF76592008453C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1129D3BC1BF76592008453C0 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		1129D3BD1BF76592008453C0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1129D3971BF76535008453C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1129D3911BF76535008453C0 = {
+			isa = PBXGroup;
+			children = (
+				1129D39C1BF76535008453C0 /* MusicPlayer */,
+				1129D39B1BF76535008453C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1129D39B1BF76535008453C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1129D39A1BF76535008453C0 /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1129D39C1BF76535008453C0 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1129D3AF1BF76592008453C0 /* playpause.png */,
+				1129D3B01BF76592008453C0 /* stop.png */,
+				1129D3B11BF76592008453C0 /* ACDC.mp3 */,
+				1129D3B21BF76592008453C0 /* BMTH.mp3 */,
+				1129D3B31BF76592008453C0 /* Caribou.mp3 */,
+				1129D3B41BF76592008453C0 /* David Guetta.mp3 */,
+				1129D3B51BF76592008453C0 /* Disclosure.mp3 */,
+				1129D3B61BF76592008453C0 /* DJ Krush.mp3 */,
+				1129D3B71BF76592008453C0 /* DJ Shadow.mp3 */,
+				1129D3B81BF76592008453C0 /* Jon Hopkins.mp3 */,
+				1129D3B91BF76592008453C0 /* Notorious.mp3 */,
+				1129D3BA1BF76592008453C0 /* Tupac.mp3 */,
+				1129D3BB1BF76592008453C0 /* Info.plist */,
+				1129D3BC1BF76592008453C0 /* LaunchScreen.xib */,
+				1129D3BD1BF76592008453C0 /* Main.storyboard */,
+				1129D39D1BF76535008453C0 /* AppDelegate.swift */,
+				1129D39F1BF76535008453C0 /* ViewController.swift */,
+				1129D3A41BF76535008453C0 /* Assets.xcassets */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1129D3991BF76535008453C0 /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1129D3AC1BF76535008453C0 /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				1129D3961BF76535008453C0 /* Sources */,
+				1129D3971BF76535008453C0 /* Frameworks */,
+				1129D3981BF76535008453C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = 1129D39A1BF76535008453C0 /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1129D3921BF76535008453C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Shapes;
+				TargetAttributes = {
+					1129D3991BF76535008453C0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CA95CW9B9P;
+					};
+				};
+			};
+			buildConfigurationList = 1129D3951BF76535008453C0 /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1129D3911BF76535008453C0;
+			productRefGroup = 1129D39B1BF76535008453C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1129D3991BF76535008453C0 /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1129D3981BF76535008453C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1129D3C91BF76592008453C0 /* Tupac.mp3 in Resources */,
+				1129D3C51BF76592008453C0 /* DJ Krush.mp3 in Resources */,
+				1129D3C31BF76592008453C0 /* David Guetta.mp3 in Resources */,
+				1129D3C41BF76592008453C0 /* Disclosure.mp3 in Resources */,
+				1129D3BE1BF76592008453C0 /* playpause.png in Resources */,
+				1129D3C01BF76592008453C0 /* ACDC.mp3 in Resources */,
+				1129D3CA1BF76592008453C0 /* Info.plist in Resources */,
+				1129D3C21BF76592008453C0 /* Caribou.mp3 in Resources */,
+				1129D3C11BF76592008453C0 /* BMTH.mp3 in Resources */,
+				1129D3A51BF76535008453C0 /* Assets.xcassets in Resources */,
+				1129D3CB1BF76592008453C0 /* LaunchScreen.xib in Resources */,
+				1129D3CC1BF76592008453C0 /* Main.storyboard in Resources */,
+				1129D3C71BF76592008453C0 /* Jon Hopkins.mp3 in Resources */,
+				1129D3C81BF76592008453C0 /* Notorious.mp3 in Resources */,
+				1129D3BF1BF76592008453C0 /* stop.png in Resources */,
+				1129D3C61BF76592008453C0 /* DJ Shadow.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1129D3961BF76535008453C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1129D3A01BF76535008453C0 /* ViewController.swift in Sources */,
+				1129D39E1BF76535008453C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1129D3AA1BF76535008453C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1129D3AB1BF76535008453C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1129D3AD1BF76535008453C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wit.ie.MusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1129D3AE1BF76535008453C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wit.ie.MusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1129D3951BF76535008453C0 /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1129D3AA1BF76535008453C0 /* Debug */,
+				1129D3AB1BF76535008453C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1129D3AC1BF76535008453C0 /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1129D3AD1BF76535008453C0 /* Debug */,
+				1129D3AE1BF76535008453C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1129D3921BF76535008453C0 /* Project object */;
+}
