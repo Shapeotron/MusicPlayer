@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWN-YZ-2vx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWN-YZ-2vx">
                                 <rect key="frame" x="16" y="220" width="102" height="102"/>
                                 <animations/>
                                 <state key="normal" image="playpause.png">
@@ -27,9 +27,12 @@
                                     <action selector="playOrPauseMusic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Sab-5j-bx2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxD-Fn-VdU">
-                                <rect key="frame" x="484" y="220" width="102" height="102"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxD-Fn-VdU">
+                                <rect key="frame" x="484" y="220" width="96" height="102"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="9Ws-UI-gO1"/>
+                                </constraints>
                                 <state key="normal" image="stop.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -37,21 +40,23 @@
                                     <action selector="stopMusic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yFJ-r2-rHq"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KNJ-9k-Vfv">
-                                <rect key="frame" x="16" y="347" width="564" height="216"/>
+                            <pickerView tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KNJ-9k-Vfv">
+                                <rect key="frame" x="16" y="392" width="564" height="126"/>
                                 <animations/>
                             </pickerView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="KNJ-9k-Vfv" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="1bn-yo-wIP"/>
-                            <constraint firstItem="LWN-YZ-2vx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="EwB-VL-nqc"/>
-                            <constraint firstItem="LWN-YZ-2vx" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="200" id="RJA-07-kyi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zxD-Fn-VdU" secondAttribute="trailing" constant="-2" id="Rer-Wg-YeO"/>
-                            <constraint firstItem="zxD-Fn-VdU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="200" id="f4k-pA-nLK"/>
-                            <constraint firstItem="KNJ-9k-Vfv" firstAttribute="leading" secondItem="LWN-YZ-2vx" secondAttribute="leading" id="obr-Xu-9qP"/>
-                            <constraint firstItem="KNJ-9k-Vfv" firstAttribute="top" secondItem="zxD-Fn-VdU" secondAttribute="bottom" constant="25" id="yc9-do-nxH"/>
+                            <constraint firstItem="LWN-YZ-2vx" firstAttribute="bottom" secondItem="zxD-Fn-VdU" secondAttribute="bottom" id="5bX-gE-idY"/>
+                            <constraint firstItem="KNJ-9k-Vfv" firstAttribute="trailing" secondItem="zxD-Fn-VdU" secondAttribute="trailing" id="9Ph-1y-1pq"/>
+                            <constraint firstItem="KNJ-9k-Vfv" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="9QD-aq-O6P"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="KNJ-9k-Vfv" secondAttribute="bottom" constant="82" id="HrO-c4-dOl"/>
+                            <constraint firstItem="zxD-Fn-VdU" firstAttribute="top" secondItem="LWN-YZ-2vx" secondAttribute="top" id="Lha-UG-h6F"/>
+                            <constraint firstItem="KNJ-9k-Vfv" firstAttribute="top" secondItem="LWN-YZ-2vx" secondAttribute="bottom" constant="70" id="TLm-aN-G4f"/>
+                            <constraint firstItem="LWN-YZ-2vx" firstAttribute="leading" secondItem="KNJ-9k-Vfv" secondAttribute="leading" id="m90-3X-fk0"/>
+                            <constraint firstItem="LWN-YZ-2vx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-4" id="mZh-Km-5nP"/>
+                            <constraint firstItem="LWN-YZ-2vx" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="200" id="oq1-br-OFf"/>
                         </constraints>
                     </view>
                     <connections>
